@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:gravity="center_vertical"
+    android:background="@drawable/webarebare"
+    android:padding="15dp"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:textSize="48dp"
+        android:textColor="#904D28"
+        android:text="Login"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"></TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:id="@+id/edittext_email"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"></EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="Password"
+        android:id="@+id/edittext_password"
+        android:layout_margin="10dp"
+
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"></EditText>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="12dp"
+
+        android:id="@+id/btn_login"
+        android:text="Login"
+        android:padding="16dp"
+        android:backgroundTint="#904D28"
+        android:layout_height="wrap_content"></Button>
+
+</LinearLayout>
